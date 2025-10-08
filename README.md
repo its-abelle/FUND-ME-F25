@@ -1,4 +1,4 @@
-# Foundry Fund Me
+# Foundry Fund Me 
 
 # About
 
@@ -8,23 +8,15 @@ This is a minimal project allowing users to fund the contract owner with donatio
 - [Getting Started](#getting-started)
   - [Requirements](#requirements)
   - [Quickstart](#quickstart)
-    - [Optional Gitpod](#optional-gitpod)
 - [Usage](#usage)
   - [Deploy](#deploy)
   - [Testing](#testing)
     - [Test Coverage](#test-coverage)
-  - [Local zkSync](#local-zksync)
-    - [(Additional) Requirements](#additional-requirements)
-    - [Setup local zkSync node](#setup-local-zksync-node)
-    - [Deploy to local zkSync node](#deploy-to-local-zksync-node)
 - [Deployment to a testnet or mainnet](#deployment-to-a-testnet-or-mainnet)
   - [Scripts](#scripts)
-    - [Withdraw](#withdraw)
+    - [Withdraw](#withdraw)79u
   - [Estimate gas](#estimate-gas)
 - [Formatting](#formatting)
-- [Additional Info:](#additional-info)
-  - [Let's talk about what "Official" means](#lets-talk-about-what-official-means)
-  - [Summary](#summary)
 - [Thank you!](#thank-you)
 
 
@@ -41,16 +33,10 @@ This is a minimal project allowing users to fund the contract owner with donatio
 ## Quickstart
 
 ```
-git clone https://github.com/Cyfrin/foundry-fund-me-f25
+git clone https://github.com/its-abelle/foundry-fund-me-f25
 cd foundry-fund-me-cu
 make
 ```
-
-### Optional Gitpod
-
-If you can't or don't want to run and install locally, you can work with this repo in Gitpod. If you do this, you can skip the `clone this repo` part.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/PatrickAlphaC/foundry-fund-me-cu)
 
 # Usage
 
@@ -157,19 +143,6 @@ To run code formatting:
 forge fmt
 ```
 
-# Additional Info:
-Some users were having a confusion that whether Chainlink-brownie-contracts is an official Chainlink repository or not. Here is the info.
-Chainlink-brownie-contracts is an official repo. The repository is owned and maintained by the chainlink team for this very purpose, and gets releases from the proper chainlink release process. You can see it's still the `smartcontractkit` org as well.
-
-https://github.com/smartcontractkit/chainlink-brownie-contracts
-
-## Let's talk about what "Official" means
-The "official" release process is that chainlink deploys it's packages to [npm](https://www.npmjs.com/package/@chainlink/contracts). So technically, even downloading directly from `smartcontractkit/chainlink` is wrong, because it could be using unreleased code.
-
-So, then you have two options:
-
-1. Download from NPM and have your codebase have dependencies foreign to foundry
-2. Download from the chainlink-brownie-contracts repo which already downloads from npm and then packages it nicely for you to use in foundry.
 ## Summary
 1. That is an official repo maintained by the same org
 2. It downloads from the official release cycle `chainlink/contracts` use (npm) and packages it nicely for digestion from foundry.
@@ -177,7 +150,7 @@ So, then you have two options:
 
 # Thank you!
 
-If you appreciated this, feel free to donate!
+Feel free to donate!
 
 ETH Address: 0x1daAD1912b31d3AE668f5f7bEb258660e79Ace50
 
