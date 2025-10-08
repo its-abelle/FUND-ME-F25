@@ -14,7 +14,7 @@ This is a minimal project allowing users to fund the contract owner with donatio
     - [Test Coverage](#test-coverage)
 - [Deployment to a testnet or mainnet](#deployment-to-a-testnet-or-mainnet)
   - [Scripts](#scripts)
-    - [Withdraw](#withdraw)79u
+    - [Withdraw](#withdraw)
   - [Estimate gas](#estimate-gas)
 - [Formatting](#formatting)
 - [Thank you!](#thank-you)
